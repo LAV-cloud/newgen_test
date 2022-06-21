@@ -1,3 +1,6 @@
+// type IPrice = number | null
+// type IPrices = IPrice[]
+
 interface ICourse {
     name: string;
     prices: (number | null)[];
